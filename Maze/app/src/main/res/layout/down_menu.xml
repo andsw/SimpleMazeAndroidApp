@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC">
+
+    <Button
+        android:id="@+id/menuButton"
+        android:textSize="16sp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/down_menu_button_shape"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:text="@string/menu" />
+
+    <Button
+        android:id="@+id/infoButton"
+        android:textSize="16sp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:textColor="#fff"
+        android:background="@drawable/down_menu_button_shape"
+        android:textAllCaps="false"
+        android:text="@string/info"/>
+
+    <Button
+        android:id="@+id/moveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:background="@drawable/down_menu_button_shape"
+        android:text="@string/move" />
+</LinearLayout>
+
+
+<!--他妈的还是别加图片了！！！！-->
+    <!--android:drawableLeft="@drawable/clear"-->
+
+    <!--android:drawableLeft="@drawable/move"--><!--android:drawableLeft=-->

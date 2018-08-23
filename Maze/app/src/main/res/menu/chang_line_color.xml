@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/black"
+        android:icon="@color/black"
+        android:title="@string/pace" />
+    <item
+        android:id="@+id/brown"
+        android:icon="@color/brown"
+        android:title="@string/pace" />
+    <item
+        android:id="@+id/burlywood"
+        android:icon="@color/burlywood"
+        android:title="@string/pace" />
+    <item
+        android:id="@+id/crimson"
+        android:icon="@color/crimson"
+        android:title="@string/pace" />
+    <item
+        android:id="@+id/deepskyblue"
+        android:icon="@color/deepskyblue"
+        android:title="@string/pace" />
+    <item
+        android:id="@+id/gainsboro"
+        android:icon="@color/gainsboro"
+        android:title="@string/pace" />
+    <item
+        android:id="@+id/mediumblue"
+        android:icon="@color/mediumblue"
+        android:title="@string/pace" />
+    <item
+        android:id="@+id/lawngreen"
+        android:icon="@color/lawngreen"
+        android:title="@string/pace" />
+    <item
+        android:id="@+id/silver"
+        android:icon="@color/silver"
+        android:title="@string/pace" />
+    <item
+        android:id="@+id/gold"
+        android:icon="@color/gold"
+        android:title="@string/pace" />
+    <item
+        android:id="@+id/firebrick"
+        android:icon="@color/firebrick"
+        android:title="@string/pace" />
+    <item
+        android:id="@+id/greenyellow"
+        android:iconTint="@color/black"
+        android:icon="@color/greenyellow"
+        android:title="@string/pace" />
+    <item
+        android:id="@+id/lightpink"
+        android:icon="@color/lightpink"
+        android:title="@string/pace" />
+    <item
+        android:id="@+id/mediumturquoise"
+        android:icon="@color/mediumturquoise"
+        android:title="@string/pace" />
+    <item
+        android:id="@+id/white"
+        android:icon="@color/white"
+        android:title="@string/pace" />
+
+</menu>

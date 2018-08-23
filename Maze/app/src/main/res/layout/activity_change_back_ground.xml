@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc.mymaze.change_backGround">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/changeLineColorBt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/greenyellow"
+            android:text="@string/changeLine"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/mediumblue"
+            android:text="@string/changeMoveDotColor" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/crimson"
+        android:layout_margin="1dp"
+        android:text="@string/changePathColor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back33"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_margin="1dp"
+        android:text="@string/changeBackPicture"/>
+    <!--这个功能先放在这吧！改变这个不够彻底，下次打开还会变成原来的样子，不然得用到文件，但我还不太会，所以就到这把！-->
+</LinearLayout>
